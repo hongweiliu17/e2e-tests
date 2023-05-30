@@ -27,7 +27,7 @@ require (
 	github.com/openshift/oc v0.0.0-alpha.0.0.20220614012638-35c7eeb5274e
 	github.com/redhat-appstudio/application-api v0.0.0-20230509152222-ef5c4dcebc94
 	github.com/redhat-appstudio/build-service v0.0.0-20230113121706-a9f10055dbc4
-	github.com/redhat-appstudio/image-controller v0.0.0-20230424143941-3da9b4925e36
+	github.com/redhat-appstudio/image-controller v0.0.0-20230510051618-e2e987ef8f06
 	github.com/redhat-appstudio/integration-service v0.0.0-20230427084439-306b4611389b
 	github.com/redhat-appstudio/jvm-build-service v0.0.0-20230125042419-efd0d0342a2c
 	github.com/redhat-appstudio/managed-gitops/backend v0.0.0-20220506042230-3a79f373a001
@@ -62,7 +62,7 @@ replace (
 	k8s.io/api => k8s.io/api v0.25.5
 	k8s.io/apimachinery => k8s.io/apimachinery v0.25.5
 	k8s.io/client-go => k8s.io/client-go v0.25.5
-	sigs.k8s.io/controller-runtime => github.com/kcp-dev/controller-runtime v0.12.2-0.20220808200255-4b60fd66e5de
+	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.13.0
 )
 
 require (
@@ -146,8 +146,6 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/juju/ansiterm v1.0.0 // indirect
-	github.com/kcp-dev/apimachinery v0.0.0-20221102195355-d65878bc16be // indirect
-	github.com/kcp-dev/logicalcluster/v2 v2.0.0-alpha.4 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/klauspost/compress v1.16.4 // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
